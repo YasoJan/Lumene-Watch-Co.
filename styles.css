@@ -1,0 +1,328 @@
+
+body
+{
+	font-size: 62.5%;
+	margin: 0;
+	padding: 0;
+	font-family: lato;
+	box-sizing: border-box;
+
+
+	
+}
+.nav-bar-ul
+{
+	display: grid;
+	border-top-color: transparent;
+	border-left-color: transparent;
+	border-right-color: transparent;
+	grid-template-columns: repeat(20, 1fr);
+	grid-template-rows: repeat(2, 1fr);
+	margin-top: 0rem;
+	padding-top: 1rem;
+	font-size: 1.07rem;
+	background-color: #F1C40E;
+	gap: 0;
+
+
+
+}
+.nav-link-features, .nav-link-works, .nav-link-pricing, .nav-link-logo
+{
+	list-style: none;
+	grid-row: 1;	
+	align-self: center;
+	justify-self: center;
+
+
+}
+.nav-link-features
+{
+
+	grid-column-start: 12;
+	grid-column-end: 15;
+
+}
+.nav-link-works
+{
+	
+	grid-column-start: 15;
+	grid-column-end: 18;
+}
+.nav-link-pricing
+{
+	
+	grid-column-start: 18;
+	grid-column-end: 21;
+}
+.nav-link-logo
+{
+	font-size: 1.40rem;
+	grid-column-start: 2;
+	grid-column-end: 6;
+}
+
+.email-address
+{
+	display: grid;
+	font-size: 1.6rem;
+	text-align: center;
+
+}
+#email
+{
+	display: grid;
+	width: 15rem;
+	height: 1.5rem;
+	margin-top: .75rem;
+	text-align: left;
+	border: .1rem solid grey;
+	justify-self: center;
+}
+.button
+{
+	display: grid;
+	grid-template-columns: repeat(20, 1fr);
+	grid-template-rows: repeat(2, 1fr);
+}
+#submit-button
+{
+	grid-column-start: 10;
+	grid-column-end: 12;
+	margin-top: .75rem;
+	height: 1.95rem;
+	background-color: #F1C40E;
+	color: black;
+	font-family: sans-serif;
+	font-weight: 600;
+	letter-spacing: .05rem;
+	font-size: .95rem;
+	border: 0rem solid transparent;
+}
+.main-section
+{
+	display: grid;
+	grid-template-columns: repeat(20, 1fr);
+	 grid-template-rows: repeat(16, minmax(100px, auto)); /* Adjust row heights */
+
+	grid-column: 3/20;
+	grid-row: 3/4;
+
+}
+.slogan-box
+{
+	display: grid;
+	grid-column-start: 4;
+	grid-column-end: 18;
+	grid-row: 1/8;
+	align-items: left;
+	margin-bottom: 10rem;
+	margin-left: 5rem;
+
+
+
+}
+
+/* h1 slogans */
+.precision-engineering
+{
+	font-size: 1.5rem;
+	margin-top: .75rem;
+
+}
+.premium-material
+{
+	font-size: 1.5rem;
+	margin-top: 2.5rem;
+
+}
+.elegant-design
+{
+	font-size: 1.5rem;
+	margin-top: 2.4rem;
+
+}
+.lifetime-support
+{
+	font-size: 1.5rem;
+	margin-top: 2.6rem;
+
+}
+
+.slogan-box p
+{
+	font-size: 1rem;
+	font-weight: lighter;
+
+}
+.slogan-icons
+{
+	display: grid;
+	grid-column-start: 4;
+	grid-column-end: 5;
+	grid-row: 1/6;
+	margin: 0;
+	color: #F1C40E;
+
+	align-items: stretch;
+
+
+}
+
+.slogan-icons span 
+{
+	display: grid;
+	font-size: 3rem;
+
+	align-items: flex-start;
+
+
+}
+
+/* icons */
+
+.precision
+{
+	
+}
+.premium
+{
+
+}
+.design
+{	
+
+}
+.support
+{
+
+}
+
+.video-embedded
+{
+	grid-column-start: 7;
+	grid-column-end: 14;
+	grid-row: 8;
+	justify-self: center;
+	
+}
+.subscriptions
+{
+	display: grid;
+	grid-template-columns:repeat(22, 1fr);
+	grid-template-rows: auto;
+	grid-column: 1/22;
+	grid-row: 11/15;
+	
+	column-gap: 3.8rem;
+	
+	
+}	
+.tier-1
+{
+	display: grid;
+
+	grid-column: 1/8;
+	grid-row: 1/5;
+	height: auto;
+
+}
+.tier-2
+{
+	display: grid;
+	
+	grid-column: 8/15;
+	grid-row: 1/5;
+}
+.tier-3
+{
+	display: grid;
+	
+	grid-column: 15/22;
+	grid-row: 1/5;
+}
+
+.tier-1-title, .tier-2-title, .tier-3-title
+{
+	font-size: 1.5rem;
+	text-align: center;
+	background-color: #F1C40E;;
+	padding: 1rem;
+	margin-top: 0;
+	text-align: center;
+	height: 3rem;  /* Fixed height */
+  	overflow: hidden;  /* Hide overflowing content if necessary */
+}
+
+.tier-1-list, .tier-2-list, .tier-3-list 
+{
+	font-size: 1rem;
+	border: 1px solid black;
+
+	padding: 1rem;
+	height: 17rem;
+	list-style: "- ";
+	margin-top: -1rem;
+
+
+}
+.price
+{
+	font-size: 1.5rem;
+	text-align: center;
+	list-style-type: none;
+
+}
+
+.privacy-div
+{
+	display: grid;
+	grid-column: 1/21;
+	grid-row: 16/17;
+	
+	background-color: #F1C40E;
+}
+.privacy-list
+{
+	display: grid;
+ 	grid-template-columns:repeat(20, 1fr);
+	grid-template-rows: auto;
+	font-size: 1.2rem;
+	grid-row: 1;
+	column-gap: 1rem;
+	row-gap: 1rem;
+}
+
+.privacy-li
+{
+	display: grid;
+	grid-column: 17/18;
+	justify-content: center;
+
+}
+
+.terms-li
+{
+	display: grid;
+	grid-column: 18/19;
+	justify-content: center;
+}
+.contact-li
+{
+	display: grid;
+	grid-column: 19/20;
+	justify-content: center;
+}
+
+.copyright
+{
+	display: grid;
+	grid-column: 17/21;
+	grid-row: 2;
+	font-size: .9rem;
+	justify-content: flex-start;
+
+
+}
+
+
