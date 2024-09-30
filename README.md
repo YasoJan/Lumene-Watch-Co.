@@ -22,5 +22,5 @@
 - For future enhancements the site will be fully responsive with **media queries** used to adjust layouts for mobile, tablet, and desktop devices.
 - Designed to look great on all screen sizes and provide an optimal user experience.
 
-[Luméne Watch Co.](https://github.com/YasoJan/Lum-ne-Watch-Co./blob/main/Product_Landing_Page_Demo.png)
+![Luméne Watch Co.](https://github.com/YasoJan/Lum-ne-Watch-Co./blob/main/Product_Landing_Page_Demo.png)
 
